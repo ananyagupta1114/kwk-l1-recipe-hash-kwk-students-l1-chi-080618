@@ -9,8 +9,9 @@ perfect_10_recipe = {
 :mini_dark_chocolate_chips => "3/4 cup",
 :olive_oil => "1/2 cup",
 :agave => "1/4 cup"
+}
 
-puts perfect_10_recipe
+perfect_10_recipe
 
 #code your solutions here
 
