@@ -68,4 +68,4 @@ end
 #6: Return the number of ingredients in the `perfect_10_recipe` hash.
 def number_ingredients(perfect_10_recipe)
  puts perfect_10_recipe.keys.count
-end
+
