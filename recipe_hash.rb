@@ -13,6 +13,10 @@ perfect_10_recipe = {
 
 puts perfect_10_recipe [:mini_dark_chocolate_chips]
 
+perfect_10_recipe.each do |x|
+  puts |x|
+end
+
 #code your solutions here
 
 #1. Create a hash called `perfect_10_recipe` that has the following data:
