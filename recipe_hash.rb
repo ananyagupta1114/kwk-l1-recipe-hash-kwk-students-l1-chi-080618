@@ -13,8 +13,9 @@ perfect_10_recipe = {
 
 # puts perfect_10_recipe[:mini_dark_chocolate_chips]
 
-perfect_10_recipe.each do |x|
-  puts |x|
+perfect_10_recipe.each do |x, y|
+  puts x 
+  puts y
 end
 
 #code your solutions here
