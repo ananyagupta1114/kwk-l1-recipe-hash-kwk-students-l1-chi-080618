@@ -11,6 +11,7 @@ perfect_10_recipe = {
 :agave => "1/4 cup"
 }
 
+return perfect_10_recipe
 puts perfect_10_recipe [:mini_dark_chocolate_chips]
 
 #code your solutions here
