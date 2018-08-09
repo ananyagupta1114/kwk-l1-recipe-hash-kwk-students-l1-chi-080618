@@ -42,8 +42,8 @@ end
 def ingredients_and_amounts(perfect_10_recipe)
   
 perfect_10_recipe.each do |x, y|
-puts x 
-puts y
+  puts x 
+  puts y
 end
 
 puts perfect_10_recipe
