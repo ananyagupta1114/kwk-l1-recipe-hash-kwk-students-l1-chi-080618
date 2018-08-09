@@ -1,22 +1,4 @@
-perfect_10_recipe = {
-:almond_flour => "2 cups",
-:gluten_freewhole_oats => "1 cup",
-:kosher_salt => "1/2 tea spoon",
-:baking_powder => "1/2 tea spoon",
-:baking_soda => "1/4 tea spoon",
-:Xanthan_gum => "1/2 tea spoon",
-:slivered_almonds_lightly_toasted => "1/4 cup",
-:mini_dark_chocolate_chips => "3/4 cup",
-:olive_oil => "1/2 cup",
-:agave => "1/4 cup"
-}
 
-# puts perfect_10_recipe[:mini_dark_chocolate_chips]
-
-# perfect_10_recipe.each do |x, y|
-#   puts x 
-#   puts y
-# end
 
 #code your solutions here
 
@@ -33,6 +15,19 @@ perfect_10_recipe = {
 #  - agave - 1/4 cup
 # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
 
+perfect_10_recipe = {
+:almond_flour => "2 cups",
+:gluten_freewhole_oats => "1 cup",
+:kosher_salt => "1/2 tea spoon",
+:baking_powder => "1/2 tea spoon",
+:baking_soda => "1/4 tea spoon",
+:Xanthan_gum => "1/2 tea spoon",
+:slivered_almonds_lightly_toasted => "1/4 cup",
+:mini_dark_chocolate_chips => "3/4 cup",
+:olive_oil => "1/2 cup",
+:agave => "1/4 cup"
+}
+
 #2. Write a method that simply returns (not puts) your perfect_10 hash
 def recipe_ingredients(perfect_10_recipe)
   perfect_10_recipe
@@ -45,6 +40,11 @@ end
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
 def ingredients_and_amounts(perfect_10_recipe)
+  
+# perfect_10_recipe.each do |x, y|
+#   puts x 
+#   puts y
+# end
 end
 
 #4: Now use `puts` to print out just the ingredients without the amounts. You'll want to use the `each_key` method.
