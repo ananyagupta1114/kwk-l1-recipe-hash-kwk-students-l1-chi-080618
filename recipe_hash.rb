@@ -11,7 +11,6 @@ perfect_10_recipe = {
 :agave => "1/4 cup"
 }
 
-perfect_10_recipe
 
 #code your solutions here
 
